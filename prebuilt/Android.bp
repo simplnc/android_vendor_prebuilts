@@ -1,0 +1,136 @@
+android_app_import {
+        name: "athena",
+        apk: "athena/athena.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "calculator",
+        apk: "calculator/calculator-5-foss-release.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "clockyou",
+        apk: "clockyou/clockyou.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+android_app_import {
+        name: "metro",
+        apk: "metro/code.name.monkey.retromusic_10630.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "DataMonitor",
+        apk: "DataMonitor/DataMonitor-v2.4.0.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "qstiles",
+        apk: "qstiles/com.asdoi.quicktiles_14.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+	name: "connectyou",
+	apk: "connectyou/connectyou.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Contacts"],
+}
+
+android_app_import {
+        name: "file",
+        apk: "file/filenavigator0.3.0.1.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+
+android_app_import {
+        name: "overload",
+        apk: "overload/overload.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+android_app_import {
+	name: "snaptick",
+	apk: "snaptick/snaptick.v3.3.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["messages"],
+}
+
+android_app_import {
+        name: "TapTap",
+        apk: "TapTap/TapTap-v1.6.2.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+android_app_import {
+        name: "wifinfo",
+        apk: "wifinfo/com.truemlgpro.wifiinfo_1610.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "cromite",
+        apk: "cromite/cromite.apk",
+        overrides: ["Browser2", "Jelly"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "FairEmail",
+        apk: "FairEmail/FairEmail-v1.2280a-github-release.apk",
+        overrides: ["Browser2", "Jelly"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
